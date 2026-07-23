@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "spellbooks",
+  "version": "0.1.0",
+  "name": "Spellbooks",
+  "description": "",
+  "authors": ["Alligator"],
+  "contributors": [
+    "BananaKingXO"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "",
+    "issues": ""
+  },
+  "license": "LicenseRef-Custom",
+  "icon": "pack.png",
+  "environment": "*",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": ""
+      },
+      "update_checker": true
+    }
+  }
+}

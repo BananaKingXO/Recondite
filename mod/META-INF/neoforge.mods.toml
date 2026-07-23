@@ -1,0 +1,30 @@
+modLoader = "lowcodefml"
+loaderVersion = "[1,]"
+license = "LicenseRef-Custom"
+showAsResourcePack = false
+issueTrackerURL = ""
+
+[[mods]]
+modId = "spellbooks"
+version = "0.1.0"
+displayName = "Spellbooks"
+displayURL = ""
+description = ''' '''
+logoFile = "pack.png"
+logoBlur = false
+updateJSONURL = ""
+credits = "BananaKingXO"
+authors = "Alligator"
+
+[[dependencies.spellbooks]]
+modId = "neoforge"
+mandatory = false
+versionRange = "[21,]"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.spellbooks]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[26.2,26.3]"
+ordering = "NONE"
+side = "BOTH"

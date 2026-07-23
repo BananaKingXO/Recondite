@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "",
+    "id": "spellbooks",
+    "version": "0.1.0",
+    "metadata": {
+      "name": "Spellbooks",
+      "description": "",
+      "contributors": {
+        "Alligator": "Developer",
+        "BananaKingXO": "Developer"
+      },
+      "contact": {
+        "homepage": "",
+        "sources": "",
+        "issues": ""
+      },
+      "icon": "pack.png"
+    },
+    "depends": [
+      {
+        "id": "quilt_resource_loader",
+        "versions": "*",
+        "unless": "fabric-resource-loader-v0"
+      }
+    ],
+    "intermediate_mappings": "net.fabricmc:intermediary"
+  }
+}
