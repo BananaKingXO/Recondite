@@ -7,7 +7,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "spellbook:ancient_tower_1",
+        "location": "spellbook:ancient_tower",
         "processors": "minecraft:empty",
         "override_liquid_settings": "ignore_waterlogging"
       }

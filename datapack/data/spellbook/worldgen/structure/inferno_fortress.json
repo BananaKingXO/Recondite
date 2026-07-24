@@ -1,10 +1,10 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#spellbook:has_structure/inferno_spire",
+  "biomes": "#spellbook:has_structure/inferno_fortress",
   "step": "surface_structures",
   "terrain_adaptation": "none",
   "spawn_overrides": {},
-  "start_pool": "spellbook:inferno_spire",
+  "start_pool": "spellbook:inferno_fortress",
   "size": 1,
   "start_height": {
     "absolute": 0
