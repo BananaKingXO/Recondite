@@ -1,2 +1,0 @@
-function spellbook:block/bewitched_workbench/crafting/items/ink
-function spellbook:block/bewitched_workbench/crafting/items/spellbooks
