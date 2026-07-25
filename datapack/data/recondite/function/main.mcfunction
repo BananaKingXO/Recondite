@@ -19,5 +19,5 @@ scoreboard players add @a spellbook.misc 1
 
 execute as @a[scores={spellbook.misc=3..}] run scoreboard players reset @a spellbook.misc
 
-execute as @e[type=item_display,tag=spellbook.bewitched_workbench_display] at @s run function recondite:block/bewitched_workbench/loop/item_display
-execute as @e[type=marker,tag=spellbook.bewitched_workbench] at @s run function recondite:block/bewitched_workbench/loop/marker
+execute as @e[type=item_display,tag=spellbook.arcane_workbench_display] at @s run function recondite:block/arcane_workbench/loop/item_display
+execute as @e[type=marker,tag=spellbook.arcane_workbench] at @s run function recondite:block/arcane_workbench/loop/marker

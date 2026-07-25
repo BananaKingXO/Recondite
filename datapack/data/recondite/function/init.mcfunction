@@ -22,7 +22,7 @@ scoreboard objectives add spellbook.charge.user dummy
 scoreboard objectives add spellbook.shock.victim dummy
 
 scoreboard objectives add spellbook.misc dummy
-scoreboard objectives add spellbook.bewitched_workbench.count dummy
+scoreboard objectives add spellbook.arcane_workbench.count dummy
 
 function recondite:util/stringlib/zprivate/load
 

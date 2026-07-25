@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Arcane Workbench",
                                 "minecraft:item_model": "recondite:arcane_workbench",
                                 "minecraft:custom_data": {
-                                    "spellbooks:item": "bewitched_workbench"
+                                    "spellbooks:item": "arcane_workbench"
                                 }
                             }
                         }

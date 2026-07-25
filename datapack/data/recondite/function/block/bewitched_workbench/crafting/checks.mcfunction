@@ -1,2 +1,0 @@
-function recondite:block/bewitched_workbench/crafting/items/ink
-function recondite:block/bewitched_workbench/crafting/items/spellbooks

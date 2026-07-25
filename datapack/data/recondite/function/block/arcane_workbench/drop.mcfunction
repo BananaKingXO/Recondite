@@ -1,9 +1,9 @@
 kill @s
 
 kill @n[type=item,nbt={Item:{id:"minecraft:fletching_table"}}]
-execute positioned ~ ~1 ~ run kill @n[type=marker,distance=..0.01,tag=spellbook.bewitched_workbench]
+execute positioned ~ ~1 ~ run kill @n[type=marker,distance=..0.01,tag=spellbook.arcane_workbench]
 
-loot spawn ~ ~ ~ loot recondite:block/bewitched_workbench
+loot spawn ~ ~ ~ loot recondite:block/arcane_workbench
 
 execute align xyz positioned ~.5 ~0.5 ~.5 run playsound minecraft:block.amethyst_cluster.break block @a[distance=0..] ~ ~ ~ 1 0.5
 

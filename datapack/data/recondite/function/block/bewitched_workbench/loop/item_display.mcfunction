@@ -1,1 +1,0 @@
-execute unless block ~ ~ ~ minecraft:fletching_table run function recondite:block/bewitched_workbench/drop

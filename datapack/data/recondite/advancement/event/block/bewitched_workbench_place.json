@@ -11,7 +11,7 @@
               "items": ["minecraft:fletching_table"],
               "predicates": {
                 "minecraft:custom_data": {
-                  "spellbooks:item": "bewitched_workbench"
+                  "spellbooks:item": "arcane_workbench"
                 }
               }
             }
@@ -21,6 +21,6 @@
     }
   },
   "rewards": {
-    "function": "recondite:block/bewitched_workbench/place"
+    "function": "recondite:block/arcane_workbench/place"
   }
 }
