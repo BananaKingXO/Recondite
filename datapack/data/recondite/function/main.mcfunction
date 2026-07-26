@@ -2,6 +2,7 @@ scoreboard players add @a spellbook.fireball.cooldown 1
 scoreboard players add @a spellbook.fire_switch.cooldown 1
 scoreboard players add @a spellbook.lightning_switch.cooldown 1
 scoreboard players add @a spellbook.flame_volley.cooldown 1
+scoreboard players add @a spellbook.ignition.cooldown 1
 scoreboard players add @a spellbook.lightning.cooldown 1
 scoreboard players add @a spellbook.wither.cooldown 1
 scoreboard players add @a spellbook.vine.cooldown 1
@@ -12,6 +13,7 @@ scoreboard players add @a spellbook.shock.cooldown 1
 execute as @a[tag=spellbook.flame_volley.user] run function recondite:item/fire_elemental_spellbook/abilities/flame_volley/score
 execute as @a[tag=spellbook.flame_volley.user2] run function recondite:item/fire_elemental_spellbook/abilities/tier_2/flame_volley/score
 execute as @a[tag=spellbook.charge.user] run function recondite:item/lightning_elemental_spellbook/abilities/charge/score
+execute as @a[tag=spellbook.ignition.user] run function recondite:item/fire_elemental_spellbook/abilities/ignition/score
 execute as @a[tag=spellbook.shock.victim] run function recondite:item/lightning_elemental_spellbook/abilities/electric_shock/victim
 execute as @a[scores={spellbook.lightning_spell.value=0}] run scoreboard players add @s spellbook.lightning_spell.value 1
 execute as @a[scores={spellbook.fire_spell.value=0}] run scoreboard players add @s spellbook.fire_spell.value 1

@@ -5,4 +5,4 @@ execute if predicate recondite:is_sneaking as @s[scores={spellbook.lightning_swi
 execute unless predicate recondite:is_sneaking as @s[scores={spellbook.lightning.cooldown=..299,spellbook.lightning_spell.value=1}] run title @s actionbar {"text":"Spell under Cooldown "}
 execute unless predicate recondite:is_sneaking as @s[scores={spellbook.charge.cooldown=..399,spellbook.lightning_spell.value=2}] run title @s actionbar {"text":"Spell under Cooldown "}
 execute unless predicate recondite:is_sneaking as @s[scores={spellbook.shock.cooldown=..399,spellbook.lightning_spell.value=3}] run title @s actionbar {"text":"Spell under Cooldown "}
-advancement revoke @s only recondite:main/item/lightning_use_spellbook
+advancement revoke @s only recondite:main/item/use_lightning_elemental_spellbook_tier_1
