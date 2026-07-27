@@ -1,6 +1,6 @@
-scoreboard players reset @s spellbook.charge.cooldown
+scoreboard players reset @s recondite.charge.cooldown
 
-tag @s add spellbook.charge.tier2.user
+tag @s add recondite.charge.tier2.user
 
 effect give @s haste 20 2 true
 effect give @s speed 20 2 true

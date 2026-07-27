@@ -5,9 +5,9 @@ showAsResourcePack = false
 issueTrackerURL = ""
 
 [[mods]]
-modId = "spellbooks"
+modId = "recondite"
 version = "0.1.0"
-displayName = "Spellbooks"
+displayName = "Recondite"
 displayURL = ""
 description = ''' '''
 logoFile = "pack.png"
@@ -16,13 +16,13 @@ updateJSONURL = ""
 credits = "BananaKingXO"
 authors = "Alligator"
 
-[[dependencies.spellbooks]]
+[[dependencies.recondite]]
 modId = "neoforge"
 mandatory = false
 versionRange = "[21,]"
 ordering = "NONE"
 side = "BOTH"
-[[dependencies.spellbooks]]
+[[dependencies.recondite]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[26.2,26.3]"

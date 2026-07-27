@@ -2,10 +2,10 @@
   "schema_version": 1,
   "quilt_loader": {
     "group": "",
-    "id": "spellbooks",
+    "id": "recondite",
     "version": "0.1.0",
     "metadata": {
-      "name": "Spellbooks",
+      "name": "Recondite",
       "description": "",
       "contributors": {
         "Alligator": "Developer",
