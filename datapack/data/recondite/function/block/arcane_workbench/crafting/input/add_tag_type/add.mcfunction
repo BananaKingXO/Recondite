@@ -1,11 +1,11 @@
 data modify storage recondite:temp arcane_workbench.item set from entity @s Item
 
-scoreboard players set #is_spellbook recondite.misc 0
+scoreboard players set #is_recondite recondite.misc 0
 execute if data storage recondite:temp arcane_workbench.item.components."minecraft:custom_data"."recondite:item" run \
-scoreboard players set #is_spellbook recondite.misc 1
+scoreboard players set #is_recondite recondite.misc 1
 
-execute if score #is_spellbook recondite.misc matches 0 run function recondite:block/arcane_workbench/crafting/input/add_tag_type/non_spellbook_item
-execute if score #is_spellbook recondite.misc matches 1 run function recondite:block/arcane_workbench/crafting/input/add_tag_type/spellbook_item
+execute if score #is_recondite recondite.misc matches 0 run function recondite:block/arcane_workbench/crafting/input/add_tag_type/non_recondite_item
+execute if score #is_recondite recondite.misc matches 1 run function recondite:block/arcane_workbench/crafting/input/add_tag_type/recondite_item
 
 execute store result score @s recondite.arcane_workbench.count run data get storage recondite:temp arcane_workbench.item.count
 
