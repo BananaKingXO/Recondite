@@ -1,1 +1,1 @@
-$tag @s add spellbook.arcane_workbench.$(namespace).$(id)
+$tag @s add recondite.arcane_workbench.$(namespace).$(id)

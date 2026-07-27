@@ -1,7 +1,7 @@
 kill @s
 
 kill @n[type=item,nbt={Item:{id:"minecraft:fletching_table"}}]
-execute positioned ~ ~1 ~ run kill @n[type=marker,distance=..0.01,tag=spellbook.arcane_workbench]
+execute positioned ~ ~1 ~ run kill @n[type=marker,distance=..0.01,tag=recondite.arcane_workbench]
 
 loot spawn ~ ~ ~ loot recondite:block/arcane_workbench
 

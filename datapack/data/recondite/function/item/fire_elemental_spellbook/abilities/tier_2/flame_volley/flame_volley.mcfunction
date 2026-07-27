@@ -14,4 +14,4 @@ execute as @e[type=small_fireball,tag=small_fireball_projectile] store result en
 execute at @s run playsound entity.blaze.shoot master
 execute at @s run playsound entity.generic.extinguish_fire master
 
-scoreboard players reset @s spellbook.flame_volley.cooldown
+scoreboard players reset @s recondite.flame_volley.cooldown

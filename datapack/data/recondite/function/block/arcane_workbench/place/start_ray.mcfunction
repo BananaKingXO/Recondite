@@ -1,5 +1,5 @@
-tag @s add spellbook.misc
-scoreboard players set #hit spellbook.misc 0
-scoreboard players set #distance spellbook.misc 0
+tag @s add recondite.misc
+scoreboard players set #hit recondite.misc 0
+scoreboard players set #distance recondite.misc 0
 function recondite:block/arcane_workbench/place/ray
-tag @s remove spellbook.misc
+tag @s remove recondite.misc
