@@ -13,6 +13,7 @@ scoreboard objectives add spellbook.shock.cooldown dummy
 scoreboard objectives add spellbook.flame_volley.cooldown dummy
 scoreboard objectives add spellbook.ignition.cooldown dummy
 scoreboard objectives add spellbook.charge.cooldown dummy
+scoreboard objectives add spellbook.static.cooldown dummy
 
 scoreboard objectives add spellbook.fire_spell.value dummy
 scoreboard objectives add spellbook.lightning_spell.value dummy
@@ -20,6 +21,8 @@ scoreboard objectives add spellbook.fire_spell.value2 dummy
 
 scoreboard objectives add spellbook.flame_volley.user dummy
 scoreboard objectives add spellbook.charge.user dummy
+scoreboard objectives add spellbook.charge.tier2.user dummy
+scoreboard objectives add spellbook.static.user dummy
 scoreboard objectives add spellbook.ignition.user dummy
 scoreboard objectives add spellbook.shock.victim dummy
 

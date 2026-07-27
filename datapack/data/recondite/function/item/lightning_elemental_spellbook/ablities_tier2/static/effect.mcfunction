@@ -1,0 +1,1 @@
+execute anchored feet run particle minecraft:electric_spark ~ ~0.1 ~ 0.25 0 0.25 0 10 force
