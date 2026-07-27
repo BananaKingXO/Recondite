@@ -11,7 +11,7 @@
               "items": ["minecraft:fletching_table"],
               "predicates": {
                 "minecraft:custom_data": {
-                  "spellbooks:item": "arcane_workbench"
+                  "recondite:item": "arcane_workbench"
                 }
               }
             }
