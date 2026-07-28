@@ -15,7 +15,7 @@
                             "function": "minecraft:set_name",
                             "name": [
                                 {
-                                    "translate": "Lightning Elemental Spellbook",
+                                    "translate": "Lightning Elemental Spellbook (Tier 1)",
                                     "color": "#fcfc54",
                                     "italic": false
                                 }
