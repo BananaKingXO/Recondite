@@ -22,6 +22,7 @@ execute as @a[scores={recondite.lightning_spell.value=0}] run scoreboard players
 execute as @a[scores={recondite.fire_spell.value=0}] run scoreboard players add @s recondite.fire_spell.value 1
 scoreboard players add @a recondite.misc 1
 
+
 execute as @a[scores={recondite.misc=3..}] run scoreboard players reset @a recondite.misc
 
 execute as @e[type=item_display,tag=recondite.arcane_workbench_display] at @s run function recondite:block/arcane_workbench/loop/item_display
