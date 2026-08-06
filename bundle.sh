@@ -9,11 +9,11 @@ rm -rf artifacts/${version}
 mkdir -p artifacts/${version}
 
 cd datapack/
-zip -r ../artifacts/${version}/Spellbooks-${version}.zip data/ pack.mcmeta
+zip -r ../artifacts/${version}/Spellbooks-${version}.zip data/ pack.mcmeta pack.png
 cp ../artifacts/${version}/Spellbooks-${version}.zip ../artifacts/${version}/mod.zip
 
 cd ../resource_pack
-zip -r ../artifacts/${version}/mod.zip assets/
+zip -r ../artifacts/${version}/mod.zip assets/ pack.png pack.mcmeta
 cd ../mod
 zip -r ../artifacts/${version}/mod.zip *
 cd ../artifacts/${version}
