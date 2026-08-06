@@ -2,11 +2,11 @@
     "pack": {
         "id": "Recondite",
         "color": "#59ff44",
-        "min_format": 94.1,
-        "max_format": 94.1,
+        "min_format": 107.1,
+        "max_format": 107.1,
         "description": [
             {
-                "text": "Recondite that are infused with magical abilities",
+                "text": "Recondite introduces spellbooks that are infused with magical abilities",
                 "color": "#ffffff"
             }
         ]
